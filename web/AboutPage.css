@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 27, 2017, 11:57:16 PM
+    Author     : kisha
+*/
+#header{
+    height: 70px;
+    width: 675px;
+    color: black;
+    vertical-align: middle;
+    padding-left: 50%;
+    border-radius: 10px;
+    background-color: gray;
+}
+h2{
+    padding-top: 5px;
+}
+
+.cd{
+    display: inline-block;
+    height: 300px;
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 120px;;
+    alignment-adjust: central;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#footer{
+    height: 70px;
+    width: 675px;
+    color: black;
+    padding-left: 50%;
+    border-radius: 10px;
+    background-color: gray;
+}
+.Persons{
+    display: inline-block;
+    width: 280px;
+    height: 300px;
+}
+
+#head{
+    background-color: gray;
+    color: black;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;    
+}
+
+
+#developers{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#dev1{
+   margin-left: 200px;
+}
+
+#dev2{
+   margin-left: 400px;
+}
+img:hover{
+    transform: rotateY(180deg);
+}
+
+#dev1:hover::after{
+    content: "SavanMatariya" ;
+    }
+img{
+    transition-duration: 1s;
+    display: inline-block;
+    height: 300px;
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 120px;;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#footerleft{
+    text-align:left;
+}
+#footerright{   
+   text-align: right;
+}

@@ -1,0 +1,238 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 30, 2017, 12:36:09 PM
+    Author     : kisha
+*/
+
+
+            body{
+                 background-image: url("Pictures/background.jpg");
+                 height: 850px;
+            }
+            
+            #container{
+                margin-top: 20px;
+                height: 860px;
+                width:1900px;
+                border: 2px double black;
+                border-radius: 10px;
+                background-color:darkgrey  ;
+                
+            }
+            
+            #header{
+               text-align: center;
+               font-size: 24px;
+               font-family: verdana;
+               margin-top: 5px;
+               height: 70px;
+               width: 1880px;
+               background-color:  #979e3d; 
+               border-radius: 10px;
+               text-align: center;
+               text-height: max-size;
+               vertical-align: middle;
+               border: 1px double grey;
+            }
+           
+            
+            #titleTextDiv{
+                margin-top: 20px;
+                font-family: BATMAN;
+                font-size: 40px;
+                color: red;
+            }
+            
+            #MainBoard{
+                margin-top: 10px;
+                height: 300px;
+                width: 1880px;
+                border-radius: 15px;
+            }
+            
+            #blank{
+                height: 15px;
+            }
+            
+            #HomeBtnContainer{
+                float: left;
+                margin-left: 20px;
+                padding-top: 2px;
+            }
+            
+            
+            * {
+margin: 0;
+padding: 0;
+list-style-type:none;
+}
+
+header li {
+	float: left;
+	list-style-type:none;
+	border-right: 1px solid #252525;
+}
+header li a {
+	float: left;
+	width: 98px;
+	height: 12px;
+	padding: 14px 7px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font: normal 62.5% "proxima-nova-alt", Helvetica, Arial, sans-serif;
+}
+#show-nails:hover div.thumbnail-peekaboo {
+	display:block;
+}
+header div.thumbnail-peekaboo {
+	display:none;
+	height:165px;
+	width:980px;
+	top:40px;
+	left:0;
+	background:#222;
+	background-size:100px 100px;
+	position:relative;
+}
+
+.thumb {
+	height:140px;
+	width:210px;
+	top:136px;
+	left:12px;
+	position:relative;
+	background-size:contain;
+	box-shadow:-12px 0 0 12px #000;
+}
+.thumb:last-of-type {
+  box-shadow:0 0 0 12px #000;
+}
+.thumb:after {
+  content:attr(title);
+  font:normal normal 20pt 'impact';
+  position:relative;
+}
+.thumb:hover {
+	-webkit-filter: grayscale(80%);
+	-moz-filter: grayscale(80%);
+	-ms-filter: grayscale(80%);
+	-o-filter: grayscale(80%);
+	filter: grayscale(80%);
+	filter: url(grayscale.svg#greyscale);
+	filter: gray;
+}
+@-webkit-keyframes TMNT {
+	0%  { left: 0px; }
+	100% { left: -1200px; }
+}
+a.prev,a.next {
+	height:91px;
+	position:absolute;
+	width:43px;
+	margin-top:-200px;
+	opacity:0.6;
+	text-indent:-99999px;
+	cursor:pointer;
+	-webkit-transition:opacity 200ms ease-out;
+}
+a.prev:hover,a.next:hover {
+	opacity:1;
+}
+
+
+
+img {
+	width:980px;
+	position:relative;
+	left:30px;
+}
+
+
+#BtnContainer{
+    display: inline-block;
+    text-decoration: none;
+	width:1880px;
+	height:500px;
+}
+#btnLeft{
+    float: left;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+}
+
+#btnRight{
+    float: right;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+}
+
+
+
+
+ul.tab {
+    background-color: black;
+    list-style-type: none;
+    margin-left: -5px;
+    margin-top: 5px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: black;
+}
+
+
+ul.tab li {
+    font-family: verdana;
+    
+    float: left;
+    width: 190px;
+}
+
+
+ul.tab li a {
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.upper{
+	align:left;
+
+}
+
+ul.tab li a:hover {
+    color: red;
+}
+
+
+ul.tab li a:focus, .active {
+    color: red;
+}
+
+#header{
+}
+
+#headertext{
+margin-top:15px;
+font-family:Verdana;
+padding-bottom:10px;
+color :#0c5f9b;
+
+}
+#legend{
+color:blue;
+font-size:25;
+}
